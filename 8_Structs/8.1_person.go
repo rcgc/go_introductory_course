@@ -20,10 +20,7 @@ func main(){
 	}
 
 	fmt.Printf("Person: (%T) %v\n", p, p)
-
 	fmt.Printf("Person: (%T) %+v\n", p, p)
-
 	fmt.Printf("Person: (%T) %#v\n", p, p)
-
 	fmt.Printf("Name: (%T) %v", p.Name, p.Name)
 }
